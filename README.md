@@ -5,7 +5,7 @@ Home: http://matplotlib.org/basemap
 
 Package license: GPLv2.0
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Plot on map projections (with coastlines and political boundaries) using matplotlib
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/basemap-data-hires-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/basemap-data-hires-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/basemap-data-hires-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/basemap-data-hires-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/basemap-data-hires-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/basemap-data-hires-feedstock/branch/master)
