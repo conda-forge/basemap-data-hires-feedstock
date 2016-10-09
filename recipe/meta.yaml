@@ -1,29 +1,33 @@
+{% set version = "1.0.8.dev0" %}
+{% set commit = "ddf92f134f26aafd96228f43793586be1e52fd4d" %}
+
 package:
-    name: basemap-data-hires
-    version: 1.0.8.dev0
+  name: basemap-data-hires
+  version: {{ version }}
 
 source:
-  git_url: https://github.com/matplotlib/basemap.git
-  git_tag: 116aefb
+  fn: {{ commit }}.tar.gz
+  url: https://github.com/matplotlib/basemap/archive/{{ commit }}.tar.gz
+  sha256: eed745099ba889e5e2c462316c8b58352e6edcc3df16a353b28a36e8ba6637e4
 
 build:
-    number: 0
+  number: 1
 
 requirements:
-    build:
-        - basemap >1.0.7
-    run:
-        - basemap >1.0.7
+  build:
+    - basemap >1.0.7
+  run:
+    - basemap >1.0.7
 
 test:
-    imports:
-        - mpl_toolkits.basemap
+  imports:
+    - mpl_toolkits.basemap
 
 about:
-    home: http://matplotlib.org/basemap
-    license: GPLv2.0
-    summary: Plot on map projections (with coastlines and political boundaries) using matplotlib
+  home: http://matplotlib.org/basemap
+  license: GPL-2.0
+  summary: 'Plot on map projections (with coastlines and political boundaries) using matplotlib.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
+  recipe-maintainers:
+    - ocefpaf
