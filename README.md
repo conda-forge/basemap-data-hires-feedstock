@@ -3,11 +3,11 @@ About basemap-data-hires
 
 Home: http://matplotlib.org/basemap
 
-Package license: GPLv2.0
+Package license: GPL-2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Plot on map projections (with coastlines and political boundaries) using matplotlib
+Summary: Plot on map projections (with coastlines and political boundaries) using matplotlib.
 
 
 
@@ -31,7 +31,6 @@ It is possible to list all of the versions of `basemap-data-hires` available on 
 ```
 conda search basemap-data-hires --channel conda-forge
 ```
-
 
 
 About conda-forge
