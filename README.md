@@ -33,7 +33,6 @@ conda search basemap-data-hires --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
