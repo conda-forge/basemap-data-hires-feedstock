@@ -11,6 +11,18 @@ Summary: Plot on map projections (with coastlines and political boundaries) usin
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/basemap-data-hires-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/basemap-data-hires-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/basemap-data-hires-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/basemap-data-hires-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/basemap-data-hires-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/basemap-data-hires-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/basemap-data-hires/badges/version.svg)](https://anaconda.org/conda-forge/basemap-data-hires)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/basemap-data-hires/badges/downloads.svg)](https://anaconda.org/conda-forge/basemap-data-hires)
+
 Installing basemap-data-hires
 =============================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/basemap-data-hires-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/basemap-data-hires-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/basemap-data-hires-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/basemap-data-hires-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/basemap-data-hires-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/basemap-data-hires-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/basemap-data-hires/badges/version.svg)](https://anaconda.org/conda-forge/basemap-data-hires)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/basemap-data-hires/badges/downloads.svg)](https://anaconda.org/conda-forge/basemap-data-hires)
 
 
 Updating basemap-data-hires-feedstock
