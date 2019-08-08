@@ -13,9 +13,9 @@ build:
 
 requirements:
   build:
-    - basemap >1.0.7
+    - basemap >=1.2.1
   run:
-    - basemap >1.0.7
+    - basemap >=1.2.1
 
 test:
   imports:
