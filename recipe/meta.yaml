@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: basemap-data-hires
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/matplotlib/basemap/archive/v{{ version }}rel.tar.gz
-  sha256: 3fb30424f18cd4ffd505e30fd9c810ae81b999bb92f950c76553e1abc081faa7
+  sha256: 7e6ee5d03b10168862cff82bfa819df8264c04f078eac4549a22dd2631696613
 
 build:
   number: 0
@@ -25,7 +25,7 @@ about:
   home: http://matplotlib.org/basemap
   license: GPL-2.0
   license_file: LICENSE_data
-  summary: 'Plot on map projections (with coastlines and political boundaries) using matplotlib.'
+  summary: Plot on map projections (with coastlines and political boundaries) using matplotlib.
 
 extra:
   recipe-maintainers:
